@@ -6,39 +6,21 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!-- <h1>todo List</h1>
-  <div>
-    <form id="form">
-    <input type="text" id="input">
-    <button type="button" onClick="getTextValue();" id="btn">ADD</button>
-  </form>
-  </div>
-  <ul id="todoList"></ul> -->
+
   <div id="myDIV" class="header">
   <h2>My To Do List</h2>
 
-  <input type="radio" name="q1" value="全て"> 全て
-  <input type="radio" name="q1" value="作業中" onclick="delete_completed()"> 作業中
-  <input type="radio" name="q1" value="完了"onclick="delete_changing()" > 完了<br>
+  <input type="radio" name="q1" value="全て" id="radiobtn_all"> 全て
+  <input type="radio" name="q1" value="作業中" id="radiobtn_changing"> 作業中
+  <input type="radio" name="q1" value="完了" id="radiobtn_completed"> 完了<br>
 
   <input type="text" id="myInput" placeholder="Title...">
-  <button onclick="newElement()" class="addBtn">Add</button>
+  <button onclick="newElement()" class="addBtn">追加</button>
 </div>
 
 
 <ul id="myUL">
-  <!-- <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
-  <li>Meet George</li>
-  <li>Buy eggs</li>
-  <li>Read a book</li>
-  <li>Organize office</li> -->
-  <!-- <li>Hit the gym<button class="change_st">作業中</button><button class="close">削除</button></li>
-  <li>Pay bills <button class="change_st">作業中</button><button class="close">削除</button></li>
-  <li>Meet George <button class="change_st">作業中</button><button class="close">削除</button></li>
-  <li>Buy eggs <button class="change_st">作業中</button><button class="close">削除</button></li>
-  <li>Read a book <button class="change_st">作業中</button><button class="close">削除</button></li>
-  <li>Organize office <button class="change_st">作業中</button><button class="close">削除</button></li> -->
+
 </ul>
 
 <script src="js/main.js"></script>
